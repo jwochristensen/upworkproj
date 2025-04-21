@@ -1,0 +1,6 @@
+cd to rs232
+
+python -m venv .venv
+source .venv/bin/activate
+
+python flask_demo.py
