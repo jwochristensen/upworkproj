@@ -3,6 +3,9 @@ import time
 import requests
 import json
 
+#error occurring: 
+#Request failed: Expecting value: line 1 column 1 (char 0)
+
 #http://127.0.0.1:5000/send_ble/
 url = "http://127.0.0.1:5000/send_ble/"
 payload = {"msg": "test message now"}
